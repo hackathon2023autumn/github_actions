@@ -1,0 +1,2 @@
+- terraform の EC2 は IAM User の AWS_ACCESS_KEY_ID と AWS_SECRET_ACCESS_KEY に基づいて作られる。
+- EC2 へのアクセスはそのリージョンに登録された key-pair(.pem)が必要。IAM と EC2 インスタンスとは関係ない。
